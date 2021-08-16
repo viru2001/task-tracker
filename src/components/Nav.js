@@ -68,6 +68,7 @@ export default function Nav() {
                     >
                         <DisplayMail >Email : <strong> {currentUser.email} </strong></DisplayMail><hr></hr>
                         <MenuItem component={Link} to="/task-tracker/update-profile" >Update Profile</MenuItem>
+
                         <MenuItem onClick={handleLogout}>Log Out</MenuItem>
                     </Menu>
                 </Toolbar>

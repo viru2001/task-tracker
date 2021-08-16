@@ -16,7 +16,6 @@ import { useAuth } from "../context/AuthContext";
 import { Form, StyledBtn , LockIcon,FormContainer } from './form.elements';
 
 
-
 export default function Signup() {
 
 

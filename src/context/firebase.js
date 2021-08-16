@@ -12,4 +12,4 @@ const db = firebase.initializeApp({
 })
 export const auth = db.auth()
 export default db
-// export {db}
+
