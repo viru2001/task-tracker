@@ -58,3 +58,31 @@ display: flex;
 flex-direction: column;
 color : #50C878;
 `
+
+// export const Level = styled.footer`
+//  flex-shrink: 0;
+//   text-align: center;
+//   background-color: #b80751;
+//   color: white;
+//   padding: 2vh;
+//   display: flex;
+//   justify-content: center;
+// `
+export const Level = styled.footer`
+   background-color: #b80751;
+   color: #fff;
+   display: grid;
+   padding: 2vw;
+   grid-template-columns: 60vw 30vw;
+    align-items: center;
+ 
+`
+export const InnerContainer  = styled.div`
+/* display: flex;
+flex-direction: column; */
+`
+
+export const Content = styled.div`
+flex: 1 0 auto;
+
+`
